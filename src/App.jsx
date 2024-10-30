@@ -1,9 +1,13 @@
+import  Navbar  from './component/Navbar';
 import React from 'react';
 import { FaStar } from 'react-icons/fa';
 
 const App = () => {
   return (
-    <div className="bg-gray-100 min-h-screen">
+    <div className='min-h-screen'>
+      <Navbar />
+
+    <div className="bg-gray-100 min-h-screen my-24">
       {/* Encabezado */}
       <header className="bg-brandPrimary text-white py-6">
         <div className="container mx-auto px-4">
@@ -121,6 +125,9 @@ const App = () => {
           </div>
         </div>
       </section>
+
+
+    </div>
 
 
     </div>
